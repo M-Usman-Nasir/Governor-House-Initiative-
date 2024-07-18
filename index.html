@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Expense traker</title>
+</head>
+
+<body>
+    <header>
+        <nav>Expense tracker</nav>
+    </header>
+    <main>
+        <div id="all-data">
+            <div id="input">
+                <input type="text" id="item-name" placeholder="Enter item name">
+                <input type="text" id="item-price" placeholder="Enter item price">
+                <input type="button" value="Add" id="add-btn">
+            </div>
+            <div>
+                <table>
+                    <thead id="list-container">
+
+                        <tr>
+                            <th>item name</th>
+                            <th>item date</th>
+                            <th>item price</th>
+                        </tr>
+                    </thead>
+
+                </table>
+            </div>
+            <div id="total">
+                <input type="text" id="total-item-num" placeholder="total item" readonly>
+                <input type="text" id="total-price" placeholder="total price" readonly>
+            </div>
+
+
+
+        </div>
+
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
